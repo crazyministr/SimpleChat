@@ -8,7 +8,25 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <textarea id="im_editable" class="im_editable"></textarea>
-    <button id="im_send" class="button" onclick="send()">Send</button>
+    <div class="users_show">
+        <table id="users_table"></table>
+    </div>
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <div class="msg_show">
+                        <table id="msg_table"></table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea id="msg_editable" class="msg_editable"></textarea><br>
+                    <button id="msg_send" class="button" onclick="send()">Send</button>
+                </td>
+            </tr>
+        </table>
+    </center>
 </body>
 </html>

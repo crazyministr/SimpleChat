@@ -1,15 +1,30 @@
-.im_editable {
+.msg_show {
+  min-width: 450px;
+  max-width: 510px;
+  border: 0;
+}
+
+.users_show {
+  border-right: 5px solid #888;
+  width: 200px;
+  float: left;
+  background: #fff;
+  height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.msg_editable {
   background: #FFFFFF;
   color: black;
   border: 1px solid #C0CAD5;
-  width: 328px;
+  width: 450px;
   min-height: 40px;
   padding: 3px 25px 3px 3px;
   padding-bottom: 5px;
   margin-bottom: 3px;
   outline: 0;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
   border-radius: 2px;
   line-height: 150%;
   word-wrap: break-word;
@@ -18,11 +33,9 @@
 
 .button {
   padding: 6px 16px 7px 16px;
-  *padding: 6px 17px 7px 17px;
   margin: 0;
   font-size: 11px;
   display: inline-block;
-  *display: inline;
   zoom: 1;
   cursor: pointer;
   white-space: nowrap;
@@ -36,16 +49,9 @@
   background-color: #6383a8;
   color: #FFF;
   border: 0;
-  *border: 0;
-  -webkit-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
   border-radius: 2px;
-  -webkit-transition: background-color 100ms ease-in-out;
-  -khtml-transition: background-color 100ms ease-in-out;
-  -moz-transition: background-color 100ms ease-in-out;
-  -ms-transition: background-color 100ms ease-in-out;
-  -o-transition: background-color 100ms ease-in-out;
-  transition: background-color 100ms ease-in-out;
+}
+
+.alt-color {
+  background-color: #DFE7F2;
 }
