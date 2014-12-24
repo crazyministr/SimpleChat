@@ -8,25 +8,15 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <div class="chat-table">
+        <table id="msg_table" border="0" cellpadding="0" cellspacing="0"></table>
+        <div class="msg">
+            <textarea id="msg_editable" class="msg_editable"></textarea>
+            <button id="msg_send" class="button" onclick="send()">Send</button>
+        </div>
+    </div>
     <div class="users_show">
         <table id="users_table"></table>
     </div>
-    <center>
-        <table>
-            <tr>
-                <td>
-                    <div class="msg_show">
-                        <table id="msg_table"></table>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <textarea id="msg_editable" class="msg_editable"></textarea><br>
-                    <button id="msg_send" class="button" onclick="send()">Send</button>
-                </td>
-            </tr>
-        </table>
-    </center>
 </body>
 </html>

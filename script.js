@@ -1,6 +1,6 @@
 var URL = 'http://kashka.zz.mu/notachat/wp-here/';
-var NICKNAME = 'Misha';
-var COUNT_MESSAGES_GET = 13;
+var NICKNAME = 'admin1';
+var COUNT_MESSAGES_GET = 25;
 
 $(document).on('ready', function() {
     getCharFeed();

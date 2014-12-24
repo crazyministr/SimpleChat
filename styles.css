@@ -1,40 +1,12 @@
-.msg_show {
-  min-width: 450px;
-  max-width: 510px;
-  border: 0;
-}
-
-.users_show {
-  border-right: 5px solid #888;
-  width: 200px;
-  float: left;
-  background: #fff;
-  height: 100%;
-  position: relative;
-  top: 0;
-  bottom: 0;
-}
-
-.msg_editable {
-  background: #FFFFFF;
-  color: black;
-  border: 1px solid #C0CAD5;
-  width: 450px;
-  min-height: 40px;
-  padding: 3px 25px 3px 3px;
-  padding-bottom: 5px;
-  margin-bottom: 3px;
-  outline: 0;
-  border-radius: 2px;
-  line-height: 150%;
-  word-wrap: break-word;
-  cursor: text;
+body {
+  min-width: 1228px;
 }
 
 .button {
-  padding: 6px 16px 7px 16px;
-  margin: 0;
-  font-size: 11px;
+  padding: 16px 30px;
+  margin: 10;
+  font-size: 20px;
+  margin-left: 50px;
   display: inline-block;
   zoom: 1;
   cursor: pointer;
@@ -53,5 +25,75 @@
 }
 
 .alt-color {
-  background-color: #DFE7F2;
+  background-color: #EDF1F5;
+  color: black;
+}
+
+.chat-table {
+  width: 70%;
+  min-width: 637px;
+  min-height: 390px;
+  padding: 10px;
+  margin: 0;
+  float: left;
+  background-color: GhostWhite;
+  border: 1px dotted black;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.chat-table table {
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: white;
+  padding: 2px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.chat-table table tr td {
+  min-width: 200px;
+  text-align: left;
+}
+
+.chat-table table tr td:first-child {
+  width: 200px;
+  text-align: left;
+}
+
+.chat-table table tr td:last-child {
+  width: 200px;
+  text-align: right;
+}
+
+.users_show {
+  margin-left: 74%;
+  width: 23%;
+  padding: 10px;
+  float: left;
+  background-color: white;
+  color: #45688e;
+  font-weight: bold;
+  border: 1px double blue;
+}
+
+.chat-table .msg {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.chat-table .msg .msg_editable {
+  background: #FFFFFF;
+  color: black;
+  border: 1px solid #C0CAD5;
+  width: 80%;
+  outline: 0;
+  border-radius: 2px;
+  line-height: 150%;
+  word-wrap: break-word;
+  cursor: text;
+  float: left;
 }
